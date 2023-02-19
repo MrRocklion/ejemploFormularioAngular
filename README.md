@@ -1,4 +1,4 @@
-![Referencia de la app](/images/vista.png)
+![Referencia de la app](vista.png)
 
 # Forms1
 
