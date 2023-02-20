@@ -1,5 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { MatSelectionListChange } from '@angular/material/list';
+import {person} from './app.models'
 import * as uuid from 'uuid';
 
 @Component({
@@ -14,7 +15,7 @@ export class AppComponent {
     edad = 0;
     users_selected: object[] = [];
     generos = [{ label: 'Femenino', value: 'F' }, { label: 'Masculino', value: 'M' }];
-    users = [
+    users: person[] = [
         {
             name: 'david',
             edad: 23,
